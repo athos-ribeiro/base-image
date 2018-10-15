@@ -1,4 +1,4 @@
-FROM fedora:28
+FROM fedora:latest
 
 LABEL "com.redhat.component"="example-image" \
       "name"="athos-ribeiro/example-image" \
