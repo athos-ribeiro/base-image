@@ -1,8 +1,7 @@
-FROM koji/image-build
+FROM fedora:28
 
-LABEL "com.redhat.component"="example-base-image" \
-      "name"="athos-ribeiro/example-base-image" \
+LABEL "com.redhat.component"="example-image" \
+      "name"="athos-ribeiro/example-image" \
       "version"="0.1"
 
 RUN dnf install -y python-django
-
